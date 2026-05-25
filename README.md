@@ -70,7 +70,7 @@ Instead, a **Router Agent** short-circuits the workflow based entirely on the an
 
 This router design is what makes the system truly "agentic" in a commercial sense. **The system architecture dynamically restructures its underlying components based entirely on the task at hand.** If the analyst asks: *"What documents are missing for this account?"*, the Router short-circuits straight to the data layer and document checker tools, completely ignoring the complex compliance or drafting models.
 
-<img src="images/three.png" width="1500" alt="Prediction error by uncertainty bucket">
+<img src="images/three.png" width="2000" alt="Prediction error by uncertainty bucket">
 
 ---
 
