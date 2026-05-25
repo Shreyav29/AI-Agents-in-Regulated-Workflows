@@ -2,9 +2,8 @@
 > **Not as decision-makers, but as governed copilots for policy-heavy, human-reviewed operations.**
 
 ## 📖 Full Writeup
-A detailed breakdown of the system design, methodology, and business tradeoffs 
-is available on Substack:
-👉 [![Substack](https://shreyavontela.substack.com/publish/post/199116438?r=4a65s9&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
+A detailed breakdown of the system architecture and business tradeoffs 
+is available on Substack:👉 [![Substack](https://shreyavontela.substack.com/publish/post/199116438?r=4a65s9&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 
 Some workflows look simple from the outside.
 * A customer files an insurance claim.
