@@ -1,6 +1,11 @@
 # Where AI Agents Actually Fit in Regulated Workflows
 > **Not as decision-makers, but as governed copilots for policy-heavy, human-reviewed operations.**
 
+## 📖 Full Writeup
+A detailed breakdown of the system design, methodology, and business tradeoffs 
+is available on Substack:
+👉 [![Substack](https://shreyavontela.substack.com/publish/post/199116438?r=4a65s9&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
+
 Some workflows look simple from the outside.
 * A customer files an insurance claim.
 * A borrower asks for loan hardship assistance.
@@ -33,6 +38,8 @@ This is an extraordinary risk. In regulated workflows, decisions must follow app
 
 > **The first principle of enterprise AI system design is absolute: The LLM must never be the system of record for a decision.**
 
+<img src="images/one.png" width="540" alt="Prediction error by uncertainty bucket">
+
 The LLM can summarize data. It can retrieve context. It can explain complexity. It can draft communication pipelines. **But the governed decision must come from approved rules, structured engines, deterministic models, and accountable humans.**
 
 ---
@@ -53,7 +60,7 @@ To make this architecture concrete, let's look at the two distinct operational e
 The batch workflow is designed to automatically handle massive queues of cases running on automated orchestrators like Apache Airflow. Instead of making the LLM read raw, unorganized databases at runtime, the data is progressively filtered through a deterministic rules engine before the generative layer ever touches it.
 
 ```
-[System Flow: Intake Layer ──► Data & State Layer ──► Generative Agent Layer ──► Deterministic Engine Layer ──► Validation & Compliance Zone ──► Output Dashboard]
+<img src="images/two.png" width="540" alt="Prediction error by uncertainty bucket">
 ```
 
 ### 2. The Reactive Exploration Pipeline (Analyst Chat)
@@ -63,6 +70,8 @@ When an operations analyst needs to dynamically drill down into a specific case,
 Instead, a **Router Agent** short-circuits the workflow based entirely on the analyst's structural intent—**completely bypassing unnecessary data layers to deliver instantaneous answers.**
 
 This router design is what makes the system truly "agentic" in a commercial sense. **The system architecture dynamically restructures its underlying components based entirely on the task at hand.** If the analyst asks: *"What documents are missing for this account?"*, the Router short-circuits straight to the data layer and document checker tools, completely ignoring the complex compliance or drafting models.
+
+<img src="images/three.png" width="540" alt="Prediction error by uncertainty bucket">
 
 ---
 
