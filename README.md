@@ -37,7 +37,7 @@ This is an extraordinary risk. In regulated workflows, decisions must follow app
 
 > **The first principle of enterprise AI system design is absolute: The LLM must never be the system of record for a decision.**
 
-<img src="images/one.png" width="540" alt="Prediction error by uncertainty bucket">
+<img src="images/two.png" width="540" alt="Prediction error by uncertainty bucket">
 
 The LLM can summarize data. It can retrieve context. It can explain complexity. It can draft communication pipelines. **But the governed decision must come from approved rules, structured engines, deterministic models, and accountable humans.**
 
