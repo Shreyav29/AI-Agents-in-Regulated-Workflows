@@ -5,7 +5,7 @@
 A detailed breakdown of the system architecture and business tradeoffs 
 is available on Substack:👉 [Substack](https://shreyavontela.substack.com/publish/post/199116438?r=4a65s9&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 
-Some workflows look simple from the outside.
+> **Some workflows look simple from the outside.**
 * A customer files an insurance claim.
 * A borrower asks for loan hardship assistance.
 * A patient needs medical prior authorization.
