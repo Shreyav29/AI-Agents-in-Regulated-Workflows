@@ -134,21 +134,7 @@ If the generation still fails validation, the probabilistic engine terminates en
 
 While a borrower hardship case serves as an excellent reference model, this identical data assembly line scales across every major corporate operation desk:
 
-* **Insurance Claims:** `Claim Telemetry` $
-ightarrow$ `Coverage Policy Retrieval` $
-ightarrow$ `Rules Engine/Fraud Model` $
-ightarrow$ `LLM Explanation Generation` $
-ightarrow$ `Adjuster Review`
-* **Healthcare Prior Authorization:** `Patient Diagnostics` $
-ightarrow$ `Clinical Guidelines Fetch` $
-ightarrow$ `Medical Necessity Rules` $
-ightarrow$ `LLM Medical Case Summary` $
-ightarrow$ `MD Review`
-* **Fraud Operations:** `Alert Activity Telemetry` $
-ightarrow$ `Fraud Playbook Retrieval` $
-ightarrow$ `Risk Score Models` $
-ightarrow$ `LLM Case Narrative Generation` $
-ightarrow$ `Analyst Sign-off`
+<img src="images/four.png" width="540" alt="Prediction error by uncertainty bucket">
 
 **The domain changes, but the core engineering paradigm stays completely intact:**
 
